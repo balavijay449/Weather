@@ -1,0 +1,115 @@
+body{
+	background-color: #00e0a8;
+}
+.container{
+	position: relative;
+	height: 100vh;
+	font-family: "Titillium Sans and Dosis", sans-serif;
+}
+.root{
+	position: relative;
+	height: 90%;
+	width: 50%;
+	border-radius: 20px;
+	background-color: #008395;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: soft-light;
+	box-shadow: 0px 0px 25px rgba(0,0,0,0.3);
+}
+.main{
+	position: relative;
+	margin-top: 20px;
+}
+.input{
+	font-size: 25px;
+	text-align: center;
+	width: 80%;
+	background-color: rgba(200,200,200,0.4);
+	border:1px solid #ccc;
+	border-radius: 5px;
+	color: #fff;
+}
+.input:focus{
+	outline: none;
+	border: 1px solid #ccc;
+}
+.click{
+	border: none;
+	position: absolute;
+	right: 10.4%;
+	top: 4%;	
+}
+.head{
+	position: relative;
+	margin-top: 7%;
+	color: #fff;
+	top: -10px;
+	font-weight: 700;
+}
+.data{
+	font-size: 70px;
+	position: relative;
+	color: #bffbff;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+.data sup{
+	font-size: 25px;
+	position: relative;
+	top: -35px;
+}
+.foot{
+	position: relative;
+	top: 10%;
+	color: #f1f1e1;
+	font-weight: 900;
+}
+.foot div p{
+	font-weight: 500;
+}
+.weat{
+	position: relative;
+	color: #fff;
+	width: 50%;
+	height: 15%;
+	margin:auto;
+	top: 2%;
+}
+.days{
+	color: #f1e1e1;
+}
+#days{
+	margin-bottom: 36px;
+	position: relative;
+	top: -10px;
+}
+@media only screen and (max-width: 767px){
+	.root{
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 576px){
+	.container{
+		min-width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+		overflow: hidden;
+	}
+	.root{
+		width: 100%;
+		height: 100%;
+		border-radius: 0;
+	}
+	body{
+		overflow: hidden;
+	}
+	.move{
+		position: relative;
+		top: 7%;
+	}
+	.main{
+		top: -5%;
+	}
+}
